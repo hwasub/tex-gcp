@@ -22,7 +22,7 @@ RUN curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cl
 # get TeX live
 RUN wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz && \
     tar xfz install-tl-unx.tar.gz && \
-    mv install-tl-2018 inst && \
+    mv install-tl-20* inst && \
     cd inst && \
     echo "selected_scheme scheme-full" > profile && \
     ./install-tl -profile profile && \
