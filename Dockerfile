@@ -1,7 +1,7 @@
 FROM alpine:3.8
 
 ENV PATH /usr/local/texlive/2018/bin/x86_64-linuxmusl:/google-cloud-sdk/bin:$PATH
-ENV CLOUD_SDK_VERSION 218.0.0
+ENV CLOUD_SDK_VERSION 219.0.1
 
 # get required packages
 RUN apk add --no-cache cairo icu-libs libgcc libpaper libpng libstdc++ \
